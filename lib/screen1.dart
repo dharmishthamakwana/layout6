@@ -26,7 +26,7 @@ class _Screen6State extends State<Screen6> {
                       Colors.teal.shade900,
                       Colors.black,
                     ]),
-                    borderRadius: BorderRadius.only(
+                    borderRadius: const BorderRadius.only(
                       bottomLeft: Radius.circular(40),
                       bottomRight: Radius.circular(40),
                     ),
@@ -38,11 +38,11 @@ class _Screen6State extends State<Screen6> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Icon(Icons.arrow_back,
+                            const Icon(Icons.arrow_back,
                                 color: Colors.white, size: 20),
                             Column(
                               mainAxisAlignment: MainAxisAlignment.start,
-                              children: [
+                              children: const [
                                 Text(
                                   "Hi, Dharmishtha Makwana",
                                   style: TextStyle(
@@ -55,7 +55,7 @@ class _Screen6State extends State<Screen6> {
                                 )
                               ],
                             ),
-                            Icon(Icons.more_vert_sharp, color: Colors.white),
+                            const Icon(Icons.more_vert_sharp, color: Colors.white),
                           ],
                         ),
                       ),
@@ -68,7 +68,7 @@ class _Screen6State extends State<Screen6> {
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(5),
                           ),
-                          child: Row(children: [
+                          child: Row(children: const [
                             SizedBox(
                               width: 10,
                             ),
@@ -100,7 +100,7 @@ class _Screen6State extends State<Screen6> {
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(5),
-                      boxShadow: [
+                      boxShadow: const [
                         BoxShadow(
                             color: Colors.grey,
                             blurRadius: 0.5,
@@ -109,7 +109,7 @@ class _Screen6State extends State<Screen6> {
                     ),
                     child: Row(
                       children: [
-                        SizedBox(
+                        const SizedBox(
                           width: 1,
                         ),
                         Padding(
@@ -126,8 +126,8 @@ class _Screen6State extends State<Screen6> {
                                       letterSpacing: 1),
                                 ),
                               ),
-                              Padding(
-                                padding: const EdgeInsets.all(8.0),
+                              const Padding(
+                                padding: EdgeInsets.all(8.0),
                                 child: Text(
                                   "\$ 1000",
                                   style: TextStyle(
@@ -140,7 +140,7 @@ class _Screen6State extends State<Screen6> {
                             ],
                           ),
                         ),
-                        Expanded(
+                        const Expanded(
                           child: SizedBox(
                             width: 50,
                           ),
@@ -152,11 +152,11 @@ class _Screen6State extends State<Screen6> {
                           decoration: BoxDecoration(
                               color: Colors.black,
                               borderRadius: BorderRadius.circular(50)),
-                          child: Text("500 Points",
+                          child: const Text("500 Points",
                               style:
                               TextStyle(color: Colors.white, fontSize: 12)),
                         ),
-                        SizedBox(
+                        const SizedBox(
                           width: 10,
                         ),
                       ],
@@ -173,7 +173,7 @@ class _Screen6State extends State<Screen6> {
                 decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(5),
-                    boxShadow: [
+                    boxShadow: const [
                       BoxShadow(
                         color: Colors.black38,
                         blurRadius: 10,
@@ -192,15 +192,15 @@ class _Screen6State extends State<Screen6> {
                               Container(
                                 height: 50,
                                 width: 50,
-                                decoration: BoxDecoration(
+                                decoration: const BoxDecoration(
                                     shape: BoxShape.circle,
                                     color: Colors.blueAccent),
-                                child: Icon(Icons.person, color: Colors.white),
+                                child: const Icon(Icons.person, color: Colors.white),
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 height: 3,
                               ),
-                              Text(
+                              const Text(
                                 "Friends",
                                 style: TextStyle(fontSize: 12),
                               )
@@ -211,15 +211,15 @@ class _Screen6State extends State<Screen6> {
                               Container(
                                 height: 50,
                                 width: 50,
-                                decoration: BoxDecoration(
+                                decoration: const BoxDecoration(
                                     shape: BoxShape.circle,
                                     color: Colors.orange),
-                                child: Icon(Icons.group, color: Colors.white),
+                                child: const Icon(Icons.group, color: Colors.white),
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 height: 3,
                               ),
-                              Text(
+                              const Text(
                                 "Groups",
                                 style: TextStyle(fontSize: 12),
                               )
@@ -230,17 +230,17 @@ class _Screen6State extends State<Screen6> {
                               Container(
                                 height: 50,
                                 width: 50,
-                                decoration: BoxDecoration(
+                                decoration: const BoxDecoration(
                                   shape: BoxShape.circle,
                                   color: Colors.purple,
                                 ),
-                                child: Icon(Icons.location_on,
+                                child: const Icon(Icons.location_on,
                                     color: Colors.white),
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 height: 3,
                               ),
-                              Text(
+                              const Text(
                                 "Nearby",
                                 style: TextStyle(fontSize: 12),
                               )
@@ -255,12 +255,12 @@ class _Screen6State extends State<Screen6> {
                                   shape: BoxShape.circle,
                                   color: Colors.blue.shade900,
                                 ),
-                                child: Icon(Icons.share, color: Colors.white),
+                                child: const Icon(Icons.share, color: Colors.white),
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 height: 3,
                               ),
-                              Text(
+                              const Text(
                                 "Moment",
                                 style: TextStyle(fontSize: 12),
                               )
@@ -279,16 +279,16 @@ class _Screen6State extends State<Screen6> {
                               Container(
                                 height: 50,
                                 width: 50,
-                                decoration: BoxDecoration(
+                                decoration: const BoxDecoration(
                                   shape: BoxShape.circle,
                                   color: Colors.pink,
                                 ),
-                                child: Icon(Icons.image, color: Colors.white),
+                                child: const Icon(Icons.image, color: Colors.white),
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 height: 3,
                               ),
-                              Text(
+                              const Text(
                                 "Album",
                                 style: TextStyle(fontSize: 12),
                               )
@@ -303,12 +303,12 @@ class _Screen6State extends State<Screen6> {
                                     shape: BoxShape.circle,
                                     color: Colors.teal.shade700),
                                 child:
-                                Icon(Icons.favorite, color: Colors.white),
+                                const Icon(Icons.favorite, color: Colors.white),
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 height: 3,
                               ),
-                              Text(
+                              const Text(
                                 "Likes",
                                 style: TextStyle(fontSize: 12),
                               )
@@ -319,17 +319,17 @@ class _Screen6State extends State<Screen6> {
                               Container(
                                 height: 50,
                                 width: 50,
-                                decoration: BoxDecoration(
+                                decoration: const BoxDecoration(
                                   shape: BoxShape.circle,
                                   color: Colors.lightGreenAccent,
                                 ),
-                                child: Icon(Icons.text_snippet_outlined,
+                                child: const Icon(Icons.text_snippet_outlined,
                                     color: Colors.white),
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 height: 3,
                               ),
-                              Text(
+                              const Text(
                                 "Articles",
                                 style: TextStyle(fontSize: 12),
                               )
@@ -340,16 +340,16 @@ class _Screen6State extends State<Screen6> {
                               Container(
                                 height: 50,
                                 width: 50,
-                                decoration: BoxDecoration(
+                                decoration: const BoxDecoration(
                                   shape: BoxShape.circle,
                                   color: Colors.orange,
                                 ),
-                                child: Icon(Icons.reviews, color: Colors.white),
+                                child: const Icon(Icons.reviews, color: Colors.white),
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 height: 3,
                               ),
-                              Text(
+                              const Text(
                                 "Reviwes",
                                 style: TextStyle(fontSize: 12),
                               )
@@ -368,17 +368,17 @@ class _Screen6State extends State<Screen6> {
                               Container(
                                 height: 50,
                                 width: 50,
-                                decoration: BoxDecoration(
+                                decoration: const BoxDecoration(
                                   shape: BoxShape.circle,
                                   color: Colors.blueGrey,
                                 ),
-                                child: Icon(Icons.sports_baseball_rounded,
+                                child: const Icon(Icons.sports_baseball_rounded,
                                     color: Colors.white),
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 height: 3,
                               ),
-                              Text(
+                              const Text(
                                 "Sports",
                                 style: TextStyle(fontSize: 12),
                               )
@@ -389,16 +389,16 @@ class _Screen6State extends State<Screen6> {
                               Container(
                                 height: 50,
                                 width: 50,
-                                decoration: BoxDecoration(
+                                decoration: const BoxDecoration(
                                   shape: BoxShape.circle,
                                   color: Colors.pink,
                                 ),
-                                child: Icon(Icons.star, color: Colors.white),
+                                child: const Icon(Icons.star, color: Colors.white),
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 height: 3,
                               ),
-                              Text(
+                              const Text(
                                 "Fav",
                                 style: TextStyle(fontSize: 12),
                               )
@@ -409,17 +409,17 @@ class _Screen6State extends State<Screen6> {
                               Container(
                                 height: 50,
                                 width: 50,
-                                decoration: BoxDecoration(
+                                decoration: const BoxDecoration(
                                   shape: BoxShape.circle,
                                   color: Colors.blue,
                                 ),
                                 child:
-                                Icon(Icons.web_sharp, color: Colors.white),
+                                const Icon(Icons.web_sharp, color: Colors.white),
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 height: 3,
                               ),
-                              Text(
+                              const Text(
                                 "Blogs",
                                 style: TextStyle(fontSize: 12),
                               )
@@ -430,17 +430,17 @@ class _Screen6State extends State<Screen6> {
                               Container(
                                 height: 50,
                                 width: 50,
-                                decoration: BoxDecoration(
+                                decoration: const BoxDecoration(
                                   shape: BoxShape.circle,
                                   color: Colors.brown,
                                 ),
-                                child: Icon(Icons.account_balance_wallet,
+                                child: const Icon(Icons.account_balance_wallet,
                                     color: Colors.white),
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 height: 3,
                               ),
-                              Text(
+                              const Text(
                                 "Wallet",
                                 style: TextStyle(fontSize: 12),
                               )

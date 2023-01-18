@@ -6,7 +6,7 @@ void main() {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        '/': (context) => Screen6(),
+        '/': (context) => const Screen6(),
         //'s5': (context) => Screen5(),
         //'s4': (context) => Screen4(),
         //'s3':(context) => Screen3(),
